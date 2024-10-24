@@ -16,7 +16,7 @@ const Menu = () => {
         onClick={() => setIsOpen((prev) => !prev)}
       />
       {isOpen && (
-        <div className="flex absolute left-0 flex-col gap-6 items-center justify-center top-[]">
+        <div className=" flex flex-col gap-6 items-center justify-center absolute w-full h-[calc(100vh-80px)] left-0 top-20 font-semibold">
           <Link href="/">首页</Link>
           <Link href="/">商城</Link>
           <Link href="/">购物</Link>
